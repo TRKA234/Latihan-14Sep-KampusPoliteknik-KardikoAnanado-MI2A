@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeknikKomputer"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teknik Komputer"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="#FF6600"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logo_tekom" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Deskripsi dan Profil"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="     Program Studi D3 Teknik Komputer (PS D3 TKOM) merupakan salah satu program studi yang berada di bawah pengelolaan Jurusan Teknologi Informasi (JTI) Politeknik Negeri Padang. Keilmuan Teknik Komputer sebelumnya merupakan bagian dari keilmuan Teknik Elektro dan telah berkembang menjadi bidang keilmuan tersendiri sesuai dengan yang telah dideskripsikan pada Computing Curricula ACM 2016. Menurut Computing Curricula, saat ini bidang keilmuan Komputer telah berkembang menjadi bidang ilmu spesifik yang terdiri dari Ilmu Komputer/Informatika, Teknik Komputer, Sistem Informasi, Teknologi Informasi, dan Rekayasa/Teknik Perangkat Lunak. Keilmuan Teknik Komputer memiliki irisan dengan bidang ilmu Teknik Elektro dan Ilmu Komputer/Teknik Informatika namun memiliki fokus pada bidang Sistem Komputasi Modern, Perangkat Kontrol Komputer, dan Jaringan Perangkat Cerdas. Secara umum Keilmuan Teknik Komputer dipandang sebagai bidang keilmuan desain komputer."
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#F5F5F5"
+        android:background="@drawable/button_style"/>
+
+</LinearLayout>
